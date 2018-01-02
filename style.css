@@ -1,0 +1,54 @@
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  background-color: dodgerblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+main,
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+.box {
+  margin: 2rem;
+}
+
+.quote,
+.author,
+.trigger,
+.tweet {
+  margin: 1rem;
+}
+
+button,
+a {
+  border: 1px solid white;
+  border-radius: 3px;
+  line-height: 1.5rem;
+  color: white;
+  width: 20rem;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
