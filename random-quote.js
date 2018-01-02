@@ -1,7 +1,7 @@
 // VARIABLES
 var quoteUrl = 'https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1';
 var tweetLink = 'https://twitter.com/intent/tweet?text=';
-var prefix = ''; // 'https://cors-anywhere.herokuapp.com/';
+var prefix = 'https://cors-anywhere.herokuapp.com/';
 
 // FUNCTIONS
 function getQuote() {
